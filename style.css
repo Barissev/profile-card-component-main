@@ -1,0 +1,173 @@
+:root{
+
+    --clr-primary-dcyan:hsl(185, 75%, 39%);
+    --clr-primary-darkdsblue:hsl(229, 23%, 23%);
+    --clr-primary-gblue:hsl(227, 10%, 46%);
+
+    --clr-neutral-darkgray:hsl(0, 0%, 59%);
+
+    --clr-neutral-line:hsl(0, 0%, 93%);
+
+
+    --ff-accent: 'Kumbh Sans', sans-serif;
+    --fw-regular:400;
+    --fw-bold:700;
+
+
+}
+
+
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+
+
+    background-color: hsl(185, 75%, 39%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+
+
+}
+
+
+.container{
+
+
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--ff-accent);
+    position: relative;
+    z-index: 1;
+    
+
+    
+    
+
+}
+
+
+.wrapper{
+
+    
+    max-width: 350px;
+    background-color: white;
+    border-radius: 1em;
+    overflow: hidden;
+    max-height: 400px;
+
+    
+
+}
+
+
+.stats{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: space-between;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    border-top: 0.1em solid var(--clr-neutral-line);
+    color: var(--clr-primary-darkdsblue);
+    font-weight: bold;
+    border-width: thin;
+
+
+
+
+
+}
+
+.text-content{
+
+
+
+    text-align: center;
+    margin-bottom: 30px;
+    height: 45px;
+
+}
+
+
+
+.img-profile{
+
+
+    text-align: center;
+    overflow: visible;
+    border: 5px solid white;
+
+}
+
+.img-profile img{
+
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid white;
+    width: max-content;
+    height: max-content;
+
+
+
+}
+
+.img-content{
+
+margin-bottom: -61px;
+}
+
+
+.name{
+
+
+    margin-top: 10px;
+    font-weight: var(--fw-bold);
+    color:var(--clr-primary-darkdsblue);
+    font-size: 1.15em;
+
+}
+
+.name span{
+
+    font-weight: var(--fw-regular);
+    color: var(--clr-neutral-darkgray);
+    padding-left: 5px;
+}
+
+
+.city{
+
+
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--clr-neutral-darkgray);
+
+}
+
+.subtypes{
+
+
+    font-weight: var(--fw-regular);
+    color: var(--clr-neutral-darkgray);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+
+}
+
